@@ -2,8 +2,10 @@
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 
 function addElementToBeginningOfArray(array, element){
-  var addElement = [element + ","];
-  var myArray = addElement.concat(array);
+  var element = [1,2,3];
+  var addElement = [4];
+  var myArray = addElement.concat(element);
+  console.log(myArray);
   
   
 
