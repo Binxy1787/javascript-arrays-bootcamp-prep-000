@@ -6,8 +6,6 @@ function addElementToBeginningOfArray(array, element){ //[1], 'foo'
   var myArray = addElement.concat(array); 
   console.log(myArray);
   
-  
-
   //var myArray = [element, ...array];
   return myArray;
 }
