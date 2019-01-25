@@ -1,9 +1,9 @@
 // define our array.
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 
-function addElementToBeginningOfArray(array, element){
+function addElementToBeginningOfArray(array, element){ //[1], 'foo'
   var addElement = [element];
-  var myArray = addElement.concat(array);
+  var myArray = addElement.concat(array); 
   console.log(myArray);
   
   
